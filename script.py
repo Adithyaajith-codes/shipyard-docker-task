@@ -1,7 +1,7 @@
 import time
 
-print("🚀 Container Started")
+print("🚀 Container Started", flush=True)
 
 while True:
-    print("Hello World")
+    print("Hello World", flush=True)
     time.sleep(5)
